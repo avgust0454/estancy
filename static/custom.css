@@ -37,16 +37,7 @@ body {
 .block {
     margin: 200px 0;
 }
-/* .btnn {
-    text-decoration: none;
-    background-color: #212121;
-    display: inline-block;
-    color: #FFFFFF;
-    margin: 24px 24px 24px;
-    text-align: center;
-    padding: 6px 101px 6px 101px;
-    font-size: 0.8em;
-} */
+
 .btnn {
     text-decoration: none; 
     background-color: #212121;
@@ -100,7 +91,7 @@ body {
 .title_area .title {
     color: #212121;
     font-size: 4em;
-    margin: 5px 0 0;
+    margin: 0px 0 0;
     /* line-height: 1.6em; */
 }
 
@@ -108,16 +99,24 @@ body {
     font-family: Gilroy;
 }
 .name {
-    margin: 24px 0 26px;
+    margin: 8px 0 24px;
     color: #212121;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding-bottom: 4px;
 }
+/* .nametwo {
+    margin: 24px 0 5px;
+    color: #212121;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 0px;
+} */
 .descr {
-    margin-top: 8px;
+    margin-top: 0px;
     color: #808080;
     font-size: 1em;
+    margin-bottom: 24px;
 }
 .txtx {
     color: #808080;
@@ -161,7 +160,7 @@ header .mnu {
 }
 #about p {
     line-height: 23px;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 #about .btna {
     display: inline-block;
@@ -275,9 +274,7 @@ header .mnu {
 #touch .field {
     display: block;
     padding-top: 16px;
-    padding: 17px 100px 17px 17px;
-    /* padding-bottom: 16px; */
-    /* padding-left: 32px; */
+    padding: 30px 100px 30px 17px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 100%;
@@ -287,10 +284,8 @@ header .mnu {
 }
 #touch .fields {
     display: block;
-    padding-top: 16px;
-    padding-bottom: 40px;
-    /* padding-bottom: 16px; */
-    /* padding-left: 32px; */
+    padding-top: 21px;
+    padding-bottom: 100px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 100%;
@@ -411,8 +406,8 @@ header .mnu {
 }
 #subscribe .field1 {
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     padding-left: 30px;
     background-color: #FFF;
     /* margin-top: 40px; */
@@ -424,11 +419,12 @@ header .mnu {
 #subscribe .field2 {
     display: inline-block;
     padding: 12px;
+    margin-top: 0px;
     background-color: #212121;
     color: #fff;
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 13px;
     text-align: center;
     font-size: 1em;
     z-index: 1;
@@ -476,16 +472,18 @@ header .mnu {
 #staff .imag {
     margin-top: 24px;
     margin-right: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
 }
 #staff .btnn {
     display: inline-block;
     text-decoration: none;
     background-color: #212121;
     color: #FFFFFF;
-    margin: 5px;
+    margin: 5px 0px 24px;
     text-align: center;
-    padding: 6px 40px 6px 40px;
-    font-size: 0.7em;
+    padding: 10px 53px 10px 53px;
+    font-size: 1.1em;
 }
 
 
@@ -517,6 +515,10 @@ header .mnu {
 #blog .item:hover .name {
     color: #ffffff;
 }
+#blog .item:hover .btnn {
+    background-color: #ffffff;
+    color: #212121;
+}
 #blog .bckgr:hover .btnn {
     color: #212121;
     background-color: #ffffff;
@@ -533,14 +535,13 @@ header .mnu {
     margin-top: 0px;
     margin-right: 0px;
 }
-
 #faq .wrap {
     color: #212121;
-    font-size: 0.75em;
+    font-size: 1.1em;
 }
 #faq .wrap .text {
     color: #808080;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #faq details {
@@ -611,10 +612,16 @@ header .mnu {
     background-color: #212121;
     display: inline-block;
     color: #FFFFFF;
-    margin: 24px 24px 24px;
+    margin: 24px auto;
     text-align: center;
-    padding: 6px 40px 6px 40px;
+    padding: 12px 86px 12px 86px;
 }
+#houses .hssbtn {
+    text-align: center;
+}
+/* #houses .item:hover .btnn:nth-child(1):after {background: url("/images/houses/icon/10a.png"); } */
+
+/* #houses .item .btnn:nth-child(2):after {background: url("/images/houses/icon/10b.png"); } */
 #houses .item {
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
@@ -687,17 +694,25 @@ header .mnu {
 #houses .item:hover .price {
     color: #FFF;
 }
+#houses .item:hover .btnn {
+    background-color: #FFF;
+    color:#212121;
+}
 #houses .price {
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: bold;
 }
 #houses .prices {
-    font-size: 1.3em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 #houses .details {
-    font-size: 0.73em;
+    font-size: 1.1em;
+}
+#houses .addr.icon {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 #houses .addr.icon:before { background-image: url("images/houses/icon/1a.png"); }
@@ -764,9 +779,10 @@ header .mnu {
     display: block;
 }
 #reviews .txtx {
-    margin-bottom: 1em;
+    margin-top: 32px;
+    margin-bottom: 16px;
     color: #808080;
-    font-size: 0.75em;
+    font-size: 1.1em;
 }
 
 #reviews .virgule {
@@ -775,11 +791,11 @@ header .mnu {
     position: absolute;
     bottom: 7px;
     right: 16px;
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
 }
 #reviews .named {
-    font-size: 0.75em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 #reviews .item {
@@ -804,7 +820,7 @@ header .mnu {
 }
 #process .item {
     /* display: flex; */
-    margin-bottom: 15px;
+    margin-bottom: 54px;
     position: relative;
     padding-left: 105px;
     min-height: 96px;
@@ -816,7 +832,7 @@ header .mnu {
 
 }
 #process .title_area {
-    margin-bottom: 4.2em;
+    margin-bottom: 51px;
 }
 #process .prcs {
     width: 65px;
