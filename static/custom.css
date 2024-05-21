@@ -1035,7 +1035,7 @@ header .mnu {
     }
     .item.sc3 {
         grid-area: c;
-        width: 100%;
+
     }
 }
 
@@ -1135,6 +1135,7 @@ header .mnu {
     grid-column-start: 1; 
     grid-column-end: 1;
    }
+/*   test master*/
 
 /* Не получаются три 
 последних блока и блок с цифрами digit   */
