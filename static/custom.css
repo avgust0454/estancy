@@ -248,7 +248,10 @@ header .mnu {
     height: 120px;
 }
 #service .item:hover {
-    background: #212121;
+    background-color: #212121;
+}
+#service .item:hover .name {
+    color: #fff;
 }
 #service .item:hover .btnn {
     background-color: #FFF;
